@@ -1,0 +1,13 @@
+.secondFlexLeft {
+  background-image: url('../../assets/images/left/2promo_ipad_air_large_2x.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.secondFlexRight {
+  background-image: url('../../assets/images/right/2promo_airpods_pro_large_2x.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}

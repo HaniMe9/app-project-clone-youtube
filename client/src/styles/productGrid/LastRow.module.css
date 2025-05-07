@@ -1,0 +1,13 @@
+.lastFlexLeft {
+  background-image: url('../../assets/images/left/3promo_iphone_2x.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.lastFlexRight {
+  background-image: url('../../assets/images/right/3promo_apple_card_large_2x.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}

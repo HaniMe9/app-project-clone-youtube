@@ -1,0 +1,6 @@
+.heroSection {
+  background-image: url('../assets/images/hero-watch/hero_apple_watch_series_10_large_2x.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}

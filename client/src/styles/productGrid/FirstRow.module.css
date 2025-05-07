@@ -1,0 +1,13 @@
+.firstFlexLeft {
+  background-image: url('../../assets/images//left/1promo_wwdc25_large_2x.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.firstFlexRight {
+  background-image: url('../../assets/images/right/1promo_macbook_air_large_2x.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}

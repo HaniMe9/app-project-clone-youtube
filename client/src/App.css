@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .hero-section,
+  .iphone-section,
+  .tv-section {
+    height: 80vh;
+  }
+
+  .first-flex,
+  .second-flex,
+  .last-flex {
+    height: 150vh;
+  }
+}
+
+/* Animation keyframes */
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+/* Animation classes */
+.animateSlideDown {
+  animation: slideDown 0.6s ease-out forwards;
+}
+
+.animateSlideUp {
+  animation: slideUp 0.6s ease-in forwards;
+}
+
+/* Center the mobile menu items */
+.mobileMenu .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Add a subtle transition to menu items */
+.mobileMenu a {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.mobileMenu a:hover {
+  transform: scale(1.05);
+  color: #000;
+}
+
+/* Hamburger button hover effect */
+.hamburgerButton:hover svg {
+  color: #000;
+}
