@@ -1,0 +1,23 @@
+{
+  "name": "apple-back-frontend-clone",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/HaniMe9/app-project-clone-youtube#readme",
+  "bugs": {
+    "url": "https://github.com/HaniMe9/app-project-clone-youtube/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaniMe9/app-project-clone-youtube.git"
+  },
+  "license": "ISC",
+  "author": "Hanna Meressa",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hanna"
+  },
+  "dependencies": {
+    "apple-back-frontend-clone": "file:"
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "name": "mysqlexercise",
+  "name": "mysql-exercise",
   "version": "1.0.0",
-  "description": "mysqlquestions",
+  "description": "mysql",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
@@ -13,6 +13,6 @@
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "mysql": "^2.18.1",
-    "mysqlexercise": "file:"
+    "mysql-exercise": "file:"
   }
 }
